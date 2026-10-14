@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-obsidian-950: #080D0B;
+  --color-obsidian-900: #0B1411;
+  --color-obsidian-850: #0F1B17;
+  --color-obsidian-800: #14231E;
+  --color-obsidian-700: #1B2F29;
+  --color-silver-50: #F8FAFC;
+  --color-silver-100: #F1F5F9;
+  --color-silver-200: #E2E8F0;
+  --color-silver-300: #CBD5E1;
+  --color-silver-400: #94A3B8;
+  --color-silver-500: #64748B;
+  --color-sterling: #C0C0C0;
+}
+
+/* Custom luxury metallic effects */
+.silver-gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 45%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-metallic-border {
+  border-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.35), rgba(192, 192, 192, 0.1), rgba(255, 255, 255, 0.05)) 1;
+}
+
+.silver-glow:hover {
+  box-shadow: 0 0 25px -4px rgba(226, 232, 240, 0.25);
+}
+
+/* Subtle luxury grain/texture */
+.luxury-noise {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}

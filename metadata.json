@@ -1,0 +1,6 @@
+{
+  "name": "Shanti Silver",
+  "description": "High-end luxury silver jewelry showcase and bespoke artisanal crafts in Chandrapur, Maharashtra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
